@@ -14,6 +14,7 @@ class LeagueVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         player = Player()
+     
         // Do any additional setup after loading the view.
     }
 
@@ -37,9 +38,11 @@ class LeagueVC: UIViewController {
     func selectLegue(legueType: String) {
         player.diserdLeague = legueType
         nextButton.isEnabled = true
+        
     }
     @IBAction func onNextClicked(_ sender: Any) {
-        performSegue(withIdentifier: "skillVCsegue", sender: player)
+            performSegue(withIdentifier: "skillVCsegue", sender: self)
+        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let skillVC = segue.destination as? SkillVC{
