@@ -12,6 +12,7 @@
 		8848B45C200B82CB00341CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8848B45A200B82CB00341CFA /* Main.storyboard */; };
 		8848B45E200B82CB00341CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8848B45D200B82CB00341CFA /* Assets.xcassets */; };
 		8848B461200B82CB00341CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8848B45F200B82CB00341CFA /* LaunchScreen.storyboard */; };
+		888ED399200BEA850016DC47 /* BorderBoutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888ED398200BEA850016DC47 /* BorderBoutton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8848B45D200B82CB00341CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8848B460200B82CB00341CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8848B462200B82CB00341CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888ED398200BEA850016DC47 /* BorderBoutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderBoutton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		8848B44A200B82CB00341CFA = {
 			isa = PBXGroup;
 			children = (
+				888ED397200BEA460016DC47 /* Views */,
 				8848B455200B82CB00341CFA /* app-swoosh */,
 				8848B454200B82CB00341CFA /* Products */,
 			);
@@ -62,6 +65,14 @@
 				8848B462200B82CB00341CFA /* Info.plist */,
 			);
 			path = "app-swoosh";
+			sourceTree = "<group>";
+		};
+		888ED397200BEA460016DC47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				888ED398200BEA850016DC47 /* BorderBoutton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8848B459200B82CB00341CFA /* ViewController.swift in Sources */,
+				888ED399200BEA850016DC47 /* BorderBoutton.swift in Sources */,
 				8848B457200B82CB00341CFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
